@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "if_eaten": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "nbt": "{Inventory:[{Slot:-106b,id:\"minecraft:flint_and_steel\"}],SelectedItem:{components:{\"minecraft:custom_data\":{smoking_bamboo:1b,can_be_smoked:1b}}}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "weed:pre_smoking"
+  }
+}

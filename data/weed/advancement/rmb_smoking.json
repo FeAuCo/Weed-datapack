@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": {
+            "nbt": "{SelectedItem:{components:{\"minecraft:custom_data\":{smoking_bamboo:1b,smoking:1b}}}}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "weed:smoking"
+    }
+}

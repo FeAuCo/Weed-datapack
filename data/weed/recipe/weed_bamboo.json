@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#@#",
+    "@&@",
+    "%@%"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gunpowder"
+    },
+    "@": {
+      "item": "minecraft:paper"
+    },
+    "&": {
+      "item": "minecraft:bamboo"
+    },
+    "%": {
+      "item": "minecraft:bone_meal"
+    }
+  },
+  "result": {
+    "id": "minecraft:cooked_porkchop",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Курительный бамбук\",\"color\":\"green\"}",
+      "minecraft:custom_data": {
+        "smoking_bamboo": 1,
+        "can_be_smoked":1
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 50,
+      "enchantment_glint_override":true,
+      "minecraft:custom_model_data":1,
+      "!minecraft:food":{}
+    }
+  }
+}
